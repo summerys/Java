@@ -1,0 +1,58 @@
+body{
+	background: url("http://eskipaper.com/images/pier-sunset-background-1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#navbar {
+	background-color: white;
+}
+
+#Profile{
+	width: 50vw;
+	height: 45vh;
+	border-style: solid;
+	border-width: 1px;
+	background-color: white;
+	border-radius: 15px;
+	opacity: 0.8;	
+	margin: 0 auto;
+	margin-top: 1vh;
+	font: 200 16px/1 bold Helvetica, Verdana, sans-serif;
+	color: #1D3E0C;
+    text-align: center;
+}
+
+#Mytrip{
+	width: 50vw;
+	height: 70vh;
+	border-style: solid;
+	border-width: 1px;
+	background-color: white;
+	border-radius: 15px;
+	opacity: 0.8;	
+	margin: 0 auto;
+	margin-top: 1vh;
+	font: 200 16px/1 bold Helvetica, Verdana, sans-serif;	
+	color: #1D3E0C;
+    text-align: center;
+}
+
+#Title{
+	 text-align: center;
+	 font-family: Arial;
+}
+
+#button {
+	color: #3399FF;
+	font-family: "Helvetica";
+	font-size: 12pt;
+	background-color: #ffffff;
+	border: 1px solid;
+	border-color: #3399FF;
+	border-radius: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+}

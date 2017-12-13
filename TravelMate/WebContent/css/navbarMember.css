@@ -1,0 +1,105 @@
+body {
+	margin: 0px;
+}
+
+#navbar {
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+	color: white;
+	height: 70px;
+	padding: 10px;
+}
+
+#title {
+	float: left;
+	width: 10vw;
+}
+
+#logo {
+	height: 70px;
+	width: 90%;
+	float: right;
+}
+
+input {
+	border: none;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	padding: 0;
+	-webkit-appearance: none;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+after { clear: both; }
+
+#searchdiv {
+  	position:relative;
+	float: left;
+	width: 45vw;
+	height: 70px;
+}
+
+#searchdiv form {
+  margin: auto;
+  border-radius: 5px;
+  border-top: 3px;
+  border-bottom: 3px;
+}
+
+#searchdiv form input[type="text"] {
+  background-color: #e5e5e5;
+  border-radius: 3px;
+  color: #a9a9a9;
+  padding: 0 16px;
+  width: 6vw;
+  height: 40px;
+}
+
+#searchdiv form input[type="submit"] {
+  background: #000066;
+  border: 0;
+  width: 4vw;
+  height: 35px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+#searchdiv form input[type="submit"]:hover {
+  background: #0000CC;
+}
+
+#menudiv {
+  	position:relative;
+	float: right;
+	width: 40vw;
+	height: 70px;
+	padding-top: 5px;
+}
+
+#profile {
+	width: 4.5vw;
+	float: right;
+	padding-right: 3%;
+}
+
+#mytrip {
+	width: 6.5vw;
+	float: right;
+	padding-right: 3%;
+}
+
+#logout {
+	width: 4.5vw;
+	float: right;
+}
+
+
+#datepicker {
+	background-color: white;
+}

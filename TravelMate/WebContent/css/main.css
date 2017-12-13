@@ -1,0 +1,85 @@
+body{
+  background: url("http://bestanimations.com/Nature/clouds-flowing-over-lake-mountains-nature-animated-gif.gif") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#navbar {
+	background-color: white;
+}
+
+#content_container{
+	width: 90%;
+	top: 1%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-42%, 30%);
+}
+
+.content{
+	
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	width: 21%;
+	height: 35vh;
+	float: left;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	opacity: 0.8;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+#one {
+	background-color: #5DCABF;
+}
+#two {
+	background-color: #001f3f;
+}
+#three {
+	background-color: #027CD9;
+}
+#four {
+	background-color: #B93636;
+}
+#five {
+	background-color: #DE481A;
+}
+#six {
+	background-color: #EAC81C;
+}
+#seven {
+	background-color: #3D9970;
+}
+#eight {
+	background-color: #123490;
+}
+
+#newdiv {	
+	margin-left: 82vw;
+	height: 4vh;
+}
+
+#otherbutton {
+	color: #3399FF;
+	font-family: "Helvetica";
+	font-size: 13pt;
+	background-color: #ffffff;
+	border: 2px solid;
+	border-color: #3399FF;
+	border-radius: 3px;
+	margin-top: 1vh;
+}

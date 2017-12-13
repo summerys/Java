@@ -1,0 +1,162 @@
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+body{
+  background: url("http://eskipaper.com/images/pier-sunset-background-1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#navbar {
+	background-color: white;
+}
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+input {
+  border: none;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 0;
+  -webkit-appearance: none;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+after { clear: both; }
+
+#editdiv {
+  margin: 50px auto;
+  width: 350px;
+  background: #282e33;
+  border: 5px solid #434a52;
+}
+
+#editdiv_event{
+	margin: 50px auto;
+  width: 75%;
+  background: #282e33;
+  border: 5px solid #434a52;
+}
+
+#editdiv_event form {
+  margin: auto;
+  padding: 22px 22px 22px 22px;
+  border-radius: 5px;
+  border-top: 3px
+  border-bottom: 3px;
+}
+
+#editdiv_event form input[type="text"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 210px;
+  height: 50px;
+}
+
+
+#editdiv_event form input[type="submit"] {
+  background: #b5cd60;
+  border: 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+
+#editdiv_event form input[type="submit"]:hover {
+  background: #16aa56;
+}
+
+#editdiv form {
+  margin: auto;
+  padding: 22px 22px 22px 22px;
+  border-radius: 5px;
+  border-top: 3px
+  border-bottom: 3px;
+}
+
+#editdiv form input[type="text"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 210px;
+  height: 50px;
+}
+
+#editdiv form input[type="password"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 210px;
+  height: 50px;
+}
+
+#editdiv form input[type="submit"] {
+  background: #b5cd60;
+  border: 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+#editdiv form input[type="submit"]:hover {
+  background: #16aa56;
+}
+
+#formerror {
+	color: white;
+}
+
+#editdiv form input[id="des"] {
+	height: 100px;
+}
+
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
