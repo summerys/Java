@@ -1,0 +1,4 @@
+ipaddress: localhost
+db:summerys_cinemate
+user:root
+password:gkftndlTek!!
